@@ -1,0 +1,140 @@
+/*
+=============== 
+CONTACT Section
+===============
+*/
+
+.contact__us {
+  padding: 100px 0px;
+  background-color: #f5f8fd;
+}
+
+.section__title h1:before {
+  left: 30%;
+}
+
+.section__title {
+  padding-bottom: 25px;
+}
+
+.contact__form {
+  background-color: #fff;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 50px;
+  border: 1px solid #eeeeee;
+}
+
+.contact__text {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.contact__text h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact__text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #838383;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.col__6 {
+  flex: 0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+}
+
+.col__12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.form__control {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+textarea.form__control {
+  height: 140px;
+}
+
+.form__control::placeholder {
+  color: #838383;
+}
+
+.contact__form .button {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contact__form .button a {
+  border-radius: 4px;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  background-color: #febd01;
+  box-shadow: 0px 10px 15px #e8e8e8;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact__form .button a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.section__title h1 {
+  display: inline-block;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 10px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section__title h1:before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  right: 30%;
+  background-color: #febd01;
+  bottom: 0px;
+}
+
+/*
+=============== 
+MEDIA QUERIES
+===============
+*/
+
+@media (max-width: 770px) {
+  .contact__form {
+    padding: 40px 20px;
+  }
+
+  .contact__form .col__6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
