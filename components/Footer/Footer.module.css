@@ -1,0 +1,54 @@
+/*
+=============== 
+FOOTER Section
+===============
+*/
+
+.footer {
+  padding: 70px 15px;
+  background-color: #0c0c17;
+}
+
+.footer .logo {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  font-size: 45px;
+  color: #fff;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer .social {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer .social a {
+  color: #999999;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 12px;
+  transition: all 0.5s ease;
+}
+
+.footer .social a:hover {
+  color: #fff;
+}
+
+.copyright {
+  background-color: #0c0c17;
+  border-top: 1px solid #1d1d27;
+  padding: 15px;
+}
+
+.copyright p {
+  text-align: center;
+  color: #838383;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
