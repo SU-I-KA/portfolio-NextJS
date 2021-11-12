@@ -1,0 +1,117 @@
+/*
+=============== 
+SKILLS Section
+===============
+*/
+
+.skills {
+  padding: 100px 15px;
+  background-color: #fff;
+}
+
+.skills__content {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+
+.skills .img {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.skills .img img {
+  width: 100%;
+  display: block;
+}
+
+.section__title p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #838383;
+  margin: 15px 0 35px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.skill__box {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.skill__box h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 0 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.skill__bar {
+  height: 5px;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.skill__bar__in {
+  background-color: #febd01;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+.skill__bar__in span {
+  color: #838383;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 0;
+  top: -30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section__title h1 {
+  display: inline-block;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 10px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section__title h1:before {
+  content: '';
+  left: 0;
+  position: absolute;
+  height: 2px;
+  right: 30%;
+  background-color: #febd01;
+  bottom: 0px;
+}
+
+/*
+=============== 
+MEDIA QUERIES
+===============
+*/
+@media (max-width: 770px) {
+  .skills__content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 8px;
+  }
+
+  .skills .img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .section__title {
+    width: 100%;
+  }
+}
