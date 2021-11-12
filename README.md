@@ -21,4 +21,4 @@ Proje, kendinizi tanıtacağınız ve yaptığınız işleri anlatacağınız te
 2. Navbar bölümü sitede gezinirken yukarıda sabit bir şekilde kalmakta.
 3. Tasarımın SEO standartlarına uygun şekilde HTML'e aktarılması ve Google Page Speed
    üzerinde mobil ve masaüstü için iyi birer derece almakta.
-4. ReactJS ile Geliştirildi
+4. ReactJS/NextJS ile Geliştirildi
